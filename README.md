@@ -9,7 +9,7 @@ matplotlib extension for vaporwave aesthetics
 ## install
 
 ```
-pip install https://github.com/dantaki/vapeplot/releases/download/v0.0.1-alpha/vapeplot-0.0.1.tar.gz
+pip install vapeplot 
 ```
 
 ## demo
