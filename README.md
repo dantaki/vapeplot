@@ -9,8 +9,10 @@ matplotlib extension for vaporwave aesthetics
 ## install
 
 ```
-pip install vapeplot 
+pip install vapeplot
 ```
+
+---
 
 ## demo
 
@@ -28,6 +30,8 @@ vapeplot.despine(plt.axes()) # despine figure
 plt.show()
 ```
 
+![alt text](https://raw.githubusercontent.com/dantaki/vapeplot/master/vaporwave.png "extended vaporwave")
+
 ```
 pal = vapeplot.palettes().cool
 vapeplot.font_size(20) # change font size
@@ -37,6 +41,10 @@ for x in range(0,len(pal)):
 vapeplot.despine(plt.axes()) # despine figure
 plt.show()
 ```
+
+![alt text](https://raw.githubusercontent.com/dantaki/vapeplot/master/cool.png "cool vaporwave")
+
+---
 
 ## api
 
