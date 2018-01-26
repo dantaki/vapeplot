@@ -74,7 +74,7 @@ seapunk_r = list(reversed(vapeplot.pal().seapunk))
 
 * `vapeplot.available(show=True)`
   * function to plot all vapeplot palettes
-  * `show=False` prints a list of palette names
+  * `show=False` prints palette names
 
 
 * `vapeplot.despine(ax,all=False)` 
