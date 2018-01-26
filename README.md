@@ -91,7 +91,7 @@ seapunk_r = list(reversed(vapeplot.pal().seapunk))
   * change the color palette globally
   * `palname` is the name of the color palette
 
-* `vapeplot.view_palette*args)`
+* `vapeplot.view_palette(*args)`
   * view individual palettes
   * arguments: one or more palette names
 
