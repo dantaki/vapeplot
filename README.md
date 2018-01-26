@@ -65,7 +65,7 @@ seapunk_r = list(reversed(vapeplot.pal().seapunk))
 ## api
 
 * `vapeplot.pal()`
-  * object containing palette 
+  * object of palettes 
   * attribute is the palette name
   * value is a list of colors
 
@@ -74,13 +74,13 @@ seapunk_r = list(reversed(vapeplot.pal().seapunk))
 
 * `vapeplot.available(show=True)`
   * function to plot all vapeplot palettes
-  * show=False prints a list of palette names
+  * `show=False` prints a list of palette names
 
 
 * `vapeplot.despine(ax,all=False)` 
   * removes figure axes
   * default action: remove right and top axes
-  * all=True removes all axes
+  * `all=True` removes all axes
 
 
 * `vapeplot.font_size(s)`
@@ -89,7 +89,7 @@ seapunk_r = list(reversed(vapeplot.pal().seapunk))
 
 * `vapeplot.set_palette(palname)`
   * change the color palette globally
-  * palname is the name of the color palette
+  * `palname` is the name of the color palette
 
 * `vapeplot.view_palette*args)`
   * view individual palettes
