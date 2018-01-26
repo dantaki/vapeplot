@@ -1,1 +1,1 @@
-import vapeplot
+from vapeplot import *
