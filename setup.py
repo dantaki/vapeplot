@@ -4,7 +4,7 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 setup(
     name = "vapeplot",
-    version = "0.0.1",
+    version = "0.0.2",
     author = "Danny Antaki",
     author_email = "dantaki@ucsd.edu",
     description = ("matplotlib extension for vaporwave aesthetics"),
