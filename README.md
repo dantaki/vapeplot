@@ -16,7 +16,7 @@ pip install vapeplot
 
 ## demo
 
-### view all palettes
+#### view all palettes
 
 ```
 import vapeplot
@@ -27,7 +27,7 @@ vapeplot.available()
 
 ![alt text](https://raw.githubusercontent.com/dantaki/vapeplot/master/vapeplot.png "vapeplot palettes")
 
-### view specific palettes
+#### view specific palettes
 
 ```
 vapeplot.view_palette("cool",'sunset')
@@ -35,7 +35,7 @@ vapeplot.view_palette("cool",'sunset')
 
 ![alt text](https://raw.githubusercontent.com/dantaki/vapeplot/master/view_palette.png "cool sunset")
 
-### set the color palette
+#### set the color palette
 
 ```
 import numpy as np
@@ -49,7 +49,7 @@ vapeplot.despine(plt.axes()) #remove right and top axes
 
 ![alt test](https://raw.githubusercontent.com/dantaki/vapeplot/master/vaporwave.png "vaporwave palette")
 
-### access a palette
+#### access a palette
 
 ```
 # cool is a list of colors
