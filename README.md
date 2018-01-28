@@ -125,6 +125,12 @@ g = sns.FacetGrid(df, row="g",hue="g", palette=pal)
 
 ![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/seapunk_seaborn_kdeplot.png "seapunk kdeplot")
 
+### sunset
+
+![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/sunset_seaborn_facetgrid.png "sunset facetgrid")
+
+![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/sunset_seaborn_kdeplot.png "sunset kdeplot")
+
 ### vaporwave 
 
 ![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/vaporwave_seaborn_facetgrid.png "vaporwave facetgrid")
