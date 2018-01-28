@@ -25,7 +25,7 @@ import vapeplot
 vapeplot.available()
 ```
 
-![alt text](https://raw.githubusercontent.com/dantaki/vapeplot/master/vapeplot.png "vapeplot palettes")
+![alt text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/vapeplot.png "vapeplot palettes")
 
 #### view specific palettes
 
@@ -33,7 +33,7 @@ vapeplot.available()
 vapeplot.view_palette("cool",'sunset')
 ```
 
-![alt text](https://raw.githubusercontent.com/dantaki/vapeplot/master/view_palette.png "cool sunset")
+![alt text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/view_palette.png "cool sunset")
 
 #### set the color palette
 
@@ -47,7 +47,7 @@ for i in range(10):
 vapeplot.despine(plt.axes()) #remove right and top axes
 ```
 
-![alt test](https://raw.githubusercontent.com/dantaki/vapeplot/master/vaporwave.png "vaporwave palette")
+![alt text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/vaporwave.png "vaporwave palette")
 
 #### make a colormap
 
@@ -60,7 +60,7 @@ vapeplot.despine(plt.axes(),True)
 plt.show()
 ```
 
-![alt text](https://raw.githubusercontent.com/dantaki/vapeplot/master/vapeplot_colormaps.png "crystal_pepsi colormap")
+![alt text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/vapeplot_colormaps.png "crystal_pepsi colormap")
 
 
 #### access a palette
@@ -73,6 +73,63 @@ cool = vapeplot.palette("cool")
 seapunk_r = vapeplot.reverse("seapunk")
 
 ```
+
+---
+
+## examples
+
+plots produced with [seaborn tutorials](https://seaborn.pydata.org/examples/index.html)
+
+set the palette with vapeplot
+
+```
+pal =  sns.blend_palette(vapeplot.palette(palname))
+
+g = sns.FacetGrid(df, row="g",hue="g", palette=pal)
+```
+
+### cool 
+
+![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/cool_seaborn_facetgrid.png "cool facetgrid")
+
+![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/cool_seaborn_kdeplot.png "cool kdeplot")
+
+
+### cyrstal_pepsi
+
+![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/cyrstal_pepsi_seaborn_facetgrid.png "cyrstal_pepsi facetgrid")
+
+![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/cyrstal_pepsi_seaborn_kdeplot.png "cyrstal_pepsi kdeplot")
+
+### jazzcup 
+
+![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/jazzcup_seaborn_facetgrid.png "jazzcup facetgrid")
+
+![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/jazzcup_seaborn_kdeplot.png "jazzcup kdeplot")
+
+### macplus 
+
+![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/macplus_seaborn_facetgrid.png "macplus facetgrid")
+
+![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/macplus_seaborn_kdeplot.png "macplus kdeplot")
+
+### mallsoft 
+
+![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/mallsoft_seaborn_facetgrid.png "mallsoft facetgrid")
+
+![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/mallsoft_seaborn_kdeplot.png "mallsoft kdeplot")
+
+### seapunk 
+
+![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/seapunk_seaborn_facetgrid.png "seapunk facetgrid")
+
+![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/seapunk_seaborn_kdeplot.png "seapunk kdeplot")
+
+### vaporwave 
+
+![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/vaporwave_seaborn_facetgrid.png "vaporwave facetgrid")
+
+![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/vaporwave_seaborn_kdeplot.png "vaporwave kdeplot")
 
 ---
 
