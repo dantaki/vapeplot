@@ -95,11 +95,11 @@ g = sns.FacetGrid(df, row="g",hue="g", palette=pal)
 ![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/cool_seaborn_kdeplot.png "cool kdeplot")
 
 
-### cyrstal_pepsi
+### crystal_pepsi
 
-![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/cyrstal_pepsi_seaborn_facetgrid.png "cyrstal_pepsi facetgrid")
+![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/crystal_pepsi_seaborn_facetgrid.png "crystal_pepsi facetgrid")
 
-![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/cyrstal_pepsi_seaborn_kdeplot.png "cyrstal_pepsi kdeplot")
+![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/crystal_pepsi_seaborn_kdeplot.png "crystal_pepsi kdeplot")
 
 ### jazzcup 
 
