@@ -37,13 +37,13 @@ def find_data_files(srcdir, *wildcards, **kw):
                                         srcdir,
                                         [os.path.basename(f) for f in glob.glob(opj(srcdir, '*'))])
         return file_list
-files = find_data_files('vapeplot/', '*.*')
+files = find_data_files('vapeplot', '*.*')
 
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 setup(
     name = "vapeplot",
-    version = "0.0.2",
+    version = "0.0.6",
     author = "Danny Antaki",
     author_email = "dantaki@ucsd.edu",
     description = ("matplotlib extension for vaporwave aesthetics"),
@@ -51,10 +51,10 @@ setup(
     keywords = "vaporwave matplotlib",
     url = "https://github.com/dantaki/vapeplot/",
     packages=['vapeplot'],
-    package_dir={'vapeplot':'vapeplot/'},
+    package_dir={'vapeplot':'vapeplot'},
     package_data= { 'vapeplot': ['vapeplot/aesthetics.json'] },
     data_files = files,
-    long_description=read('README.md'),
+    long_description=read('README.rst'),
     include_package_data=True,
     install_requires=['matplotlib'],
     classifiers=[
