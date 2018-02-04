@@ -44,7 +44,7 @@ import matplotlib.pyplot as plt
 vapeplot.set_palette('vaporwave')
 for i in range(10):
     plt.plot(range(100),np.random.normal(i,1,100))
-vapeplot.despine(plt.axes()) #remove right and top axes
+vapeplot.despine(plt.axes())  # remove right and top axes
 ```
 
 ![alt text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/vaporwave.png "vaporwave palette")
@@ -55,8 +55,7 @@ vapeplot.despine(plt.axes()) #remove right and top axes
 cmap = vapeplot.cmap('crystal_pepsi')
 A = np.random.rand(25, 25)
 plt.imshow(A,cmap=cmap)
-# remove all axes
-vapeplot.despine(plt.axes(),True)
+vapeplot.despine(plt.axes(),True)  # remove all axes
 plt.show()
 ```
 
