@@ -13,7 +13,7 @@ setup(
     url = "https://github.com/dantaki/vapeplot/",
     packages=['vapeplot'],
     package_dir={'vapeplot':'vapeplot'},
-    long_description=read('README.rst'),
+    long_description=read('README.md'),
     include_package_data=True,
     install_requires=['matplotlib'],
     classifiers=[
