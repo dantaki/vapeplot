@@ -14,7 +14,8 @@ palettes = {
     "jazzcup": ["#392682", "#7a3a9a", "#3f86bc", "#28ada8", "#83dde0"],
     "sunset": ["#661246", "#ae1357", "#f9247e", "#d7509f", "#f9897b"],
     "macplus": ["#1b4247", "#09979b", "#75d8d5", "#ffc0cb", "#fe7f9d", "#65323e"],
-    "seapunk": ["#532e57", "#a997ab", "#7ec488", "#569874", "#296656"]
+    "seapunk": ["#532e57", "#a997ab", "#7ec488", "#569874", "#296656"],
+    "avanti": ["#FB4142", "#94376C", "#CE75AD", "#76BDCF", "#9DCFF0"]
 }
 
 # avoid plotly import if not using
@@ -25,7 +26,7 @@ def available(show=True):
     if not show:
         return palettes.keys()
     else:
-        f, ax = plt.subplots(4, 2, figsize=(5, 8))
+        f, ax = plt.subplots(5, 2, figsize=(5, 8))
         for i, name in enumerate(palettes.keys()):
             x, y = i // 2, i % 2
             cycle = palettes[name]
