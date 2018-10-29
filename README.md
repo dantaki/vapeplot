@@ -27,6 +27,8 @@ vapeplot.available()
 
 ![alt text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/vapeplot.png "vapeplot palettes")
 
+try `from vapeplot import vapeplot` if the above commands failed 
+
 #### view specific palettes
 
 ```
