@@ -138,7 +138,7 @@ g = sns.FacetGrid(df, row="g",hue="g", palette=pal)
 
 Contributer palettes, submit your pull request!
 
-### [avanti by mike-u](https://github.com/mike-u)
+### avanti [by mike-u](https://github.com/mike-u)
 
 ![alt_text](https://raw.githubusercontent.com/dantaki/vapeplot/master/examples/avanti_seaborn_facetgrid.png "avanti facetgrid")
 
