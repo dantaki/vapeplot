@@ -7,7 +7,7 @@ def read(fname):
 
 setup(
     name="vapeplot",
-    version="0.0.7",
+    version="0.0.8",
     author="Danny Antaki",
     author_email="dantaki@ucsd.edu",
     description=("matplotlib extension for vaporwave aesthetics"),
